@@ -1,0 +1,191 @@
+body
+{
+    margin: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 
+{ 
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+
+h2
+{
+    color:#385d5d;  
+}
+h3
+{
+    color:#385d5d;
+}
+
+hr
+{
+    
+   border: dotted gray 6px;
+   border-bottom: none;
+   width: 4%;
+   margin: 50px auto;
+}
+p
+{
+    color: #2b6464;
+}
+
+a
+{
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover
+{
+    color:#EAF6F6; 
+    text-decoration: none;
+}
+
+.name
+{
+    color:#385d5d;  
+}
+
+.bio
+{
+    font-size: 1.5rem; 
+    color: #205c5c;
+    
+}
+
+.my-image
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.content-image
+{
+    width:30%;
+    border-radius: 60%;
+    float: right;
+    margin-left: 30px;
+}
+.web-dev-img
+{
+    
+    width:30%;
+    border-radius: 60%;
+    float: left;
+    margin-right: 30px;
+}
+
+.profile
+{
+    width: 700px;
+    text-align: center;
+    position: relative;
+    left:410px;
+}
+
+.skill-row
+{
+    width:50%;
+    text-align: left;
+    margin: 100px auto 120px auto;
+    color: #357575;
+    line-height: 2;
+}
+.top-container
+{
+   background-color: #e4f9f5;
+   position: relative;
+   padding-top: 50px;
+   
+   
+}
+
+.bottom-container
+{
+    background-color: #7dc9c9;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.footer-link
+{
+    color:#08282d;
+    text-decoration: none;
+}
+
+
+.contact-me-your-info
+{
+    position: relative;
+    right: 6px;
+    color:#08282d;
+    margin: 2px 2px 2px 2px;
+}
+.contact-page
+{
+    position: relative;
+    padding: 2%;
+    background-color: #e4f9f5;
+}
+.your-message
+{
+    position: relative;
+    right: 2px;
+    color:#08282d;
+}
+
+
+.copyright
+{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding-top: 10px;
+}
+.bottom-cloud
+{
+    position: absolute;
+    left:300px;
+    bottom: 300px;
+
+} 
+
+.top-cloud
+{
+    position: absolute;
+    right: 350px;
+    top: 50px;
+
+}
+.contact-me
+{
+    color: black;
+}
+
+.btn {
+
+  background-color:#7dc9c9; /* Green */
+  border: none;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;  
+  display: inline-block;
+  border-radius: 10%;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+
+  
+  }
+ 
+  .btn:hover {
+   background-color: #61b3b3;
+   color: white;
+    
+  }
